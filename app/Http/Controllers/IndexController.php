@@ -8,6 +8,6 @@ class IndexController extends Controller
 {
     public function main()
     {
-        return "Yeeeee";
+        return "Welcome to PornHub";
     }
 }
