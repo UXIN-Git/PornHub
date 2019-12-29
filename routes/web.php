@@ -1,5 +1,5 @@
 <?php
-
+use Carbon\Carbon;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/main', 'IndexController@main');
+
+Route::get('/time', 'TimeController@main');
