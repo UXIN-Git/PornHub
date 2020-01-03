@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/main', 'IndexController@main');
+Route::get('/main/{aaa}/bbb/{ccc?}', 'IndexController@main');
 
-Route::get('/time', 'TimeController@main');
+Route::get('/time', function(){
+    return 'Welcome to CornHub!!';
+})->middleware('timeIn');
