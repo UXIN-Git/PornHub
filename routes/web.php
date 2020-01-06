@@ -20,3 +20,6 @@ Route::get('/main/{aaa}/bbb/{ccc?}', 'IndexController@main');
 Route::get('/time', function(){
     return 'Welcome to CornHub!!';
 })->middleware('timeIn');
+
+//20200103課後練習
+Route::get('/base/{Decimal}/{Base}', 'BaseController@main');

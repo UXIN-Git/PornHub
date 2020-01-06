@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
-    public function main(Request $request, $aaa, $ccc)
+    public function main(Request $request, $asds, $ffsa)
     {
-        $zzz = array($aaa,$ccc);
+        $zzz = array($asds,$ffsa);
         $this -> changeValue($zzz);
         return $this->mySelf($zzz);
     }
@@ -19,6 +19,6 @@ class IndexController extends Controller
     // function自己用
     private function mySelf($zzz)
     {
-        return "Welcome to PornHub$zzz[0]  ' -----'  $zzz[1]";
+        return "Welcome to PornHub$zzz[0]  '-----'  $zzz[1]";
     }
 }
