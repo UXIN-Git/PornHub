@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- 請在這裡放上轉小網的code -->
+  <ins class="clickforceads" style="display:inline-block;" data-ad-zone="12293"></ins>
+  <script async type="text/javascript" src="//cdn.holmesmind.com/js/init.js"></script>
+  <!-- 請在這裡放上轉小網的code -->
+
+</body>
+
+</html>
+
